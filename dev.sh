@@ -1,0 +1,1 @@
+docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app f447e3fbdb8fa1de64bbc70e731b63c2a9c3d58f9ea9852abcf00d398a3a574c
