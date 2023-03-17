@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("amir/react-chat-app")
+        app = docker.build("sojiman22/react-chat-app")
     }
 
     stage('Test image') {
